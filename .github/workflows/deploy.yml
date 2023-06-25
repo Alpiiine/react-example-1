@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  pages: write
+
 jobs:
   build:
     name: Build
